@@ -17,21 +17,21 @@
     border-top-left-radius: 16px; /* use 4 pixel increments */
     border-top-right-radius: 16px;
     border: 3px solid #fff;
-    background: url('../assets/images/web2.jpg');
+    background: url('../assets/images/web3.jpg');
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
-    font-weight: 100;
+    font-weight: 50;
     font-style: normal;
     text-align: center;
     padding-top: 150px;
-    font-size: 3em;
+    font-size: 2em;
     color: #fff;
     text-shadow: 2px 2px 7px #333;
   }
     header > p {
       color: #0f0;
-      margin-top: -15px;
+      margin-top: -25px;
       background: rgba(255, 255, 255, .33);
     }
   section {
