@@ -21,7 +21,7 @@
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
-    font-weight: 200;
+    font-weight: 100;
     font-style: normal;
     text-align: center;
     padding-top: 150px;
@@ -31,7 +31,7 @@
   }
     header > p {
       color: #0f0;
-      margin-top: -25px;
+      margin-top: -15px;
       background: rgba(255, 255, 255, .33);
     }
   section {
