@@ -70,11 +70,8 @@ header ul li a{
     font-size: 28px;
     margin-bottom: 20px;
 }
-.code-repeat{
-    font-size: 24px;
-    color: #00aaff;
-    text-shadow: 2px 2px #3b82f6;
-}
+
+
 .worksamples{
     margin: 20px;
     padding: 20px;
@@ -83,7 +80,7 @@ header ul li a{
     text-align: center;
 }
 .worksamples img{
-    width: 100%;
+    width: 50%;
     border-radius: 10px;
 }
 .worksamples h3{
