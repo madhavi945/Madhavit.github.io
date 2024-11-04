@@ -1,2 +1,2 @@
-# Madhavit.github.io
+# madhavit.github.io
 My Github pages site
