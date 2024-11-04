@@ -1,91 +1,90 @@
-*{
-    margin: 0;
-    padding: 0;
+
+* {
     box-sizing: border-box;
-}
-body{
-    font-family: Arial,sans-serif;
-    color: #fff;
-    background-color: #121212;
-}
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #181818;
-
-}
-header h1{
-    font-size: 24px;
-    color: #fff;
-}
-header .dot{
-    color: #3b82f6;
-}
-header ul{
-    list-style: none;
-    display: flex;
-}
-header ul li{
-    margin: 0 10px;
-}
-header ul li a{
-    color: #fff;
-    text-decoration: none;
-}
-.intro{
-    display: flex;
-    align-items: center;
-    padding: 50px;
-    text-align: center;
-}
-.profile-pic{
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin-right: 20px;
-}
-.intro-text .name{
-    color: #3b82f6;
-}
-.intro-text  .highlight{
-    color: #3b82f6;
-}
-
-.resume-button{
-    background-color: #3b82f6;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-}
-#about, #careergoals, #samples{
-    padding: 50px;
-    text-align: center;
-}
-#about h2, #samples h2{
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-.code-repeat{
-    font-size: 24px;
-    color: #00aaff;
-    text-shadow: 2px 2px #3b82f6;
-}
-.worksamples{
-    margin: 20px;
-    padding: 20px;
-    background-color: #1e1e1e;
-    border-radius: 10px;
-    text-align: center;
-}
-.worksamples img{
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    background: #444;
+    padding: 25px 50px;
+    font-size: 1.6em;
+    font-weight: 500;
+  }
+  header {
     width: 100%;
-    border-radius: 10px;
-}
-.worksamples h3{
-    color: #3b82f6;
-}
+    height: 500px;
+    border-top-left-radius: 16px; /* use 4 pixel increments */
+    border-top-right-radius: 16px;
+    border: 3px solid #fff;
+    background: url('../assets/images/web2.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Tiny5', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 2px 2px 7px #333;
+  }
+    header > p {
+      color: #0f0;
+      margin-top: -25px;
+      background: rgba(255, 255, 255, .33);
+    }
+  section {
+    width: 100%;
+    min-height: 300px;
+    padding: 100px 50px;
+    border: 3px solid #fff;
+  }
+  #aboutSection {
+    background: #fff;
+    color: #333;
+    font-size: 1.2em;
+  }
+    .fancyHeading {
+      font-family: 'Tiny5', sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      margin-bottom: 20px;
+      text-decoration: underline;
+    }
+  
+  #careerGoals {
+    background: #222;
+    color: #fff;
+    font-size: 1.2em;
+    padding-left: 100px;
+  }
+  #workSamples {
+    background: #fff;
+    color: #333;
+    text-align: center;
+  }
+    .thumbnail {
+      width: 20%;
+      border: 3px solid #777;
+      border-radius: 16px;
+      box-shadow: 2x 3px 5px #222;
+    }
+  #contact {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    font-size: 1.2em;
+  }
+    #contact > a:link {
+      color: #fff;
+    }
+  footer {
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 10px;
+    font-size: .9em;
+    color: #fff;
+  }
